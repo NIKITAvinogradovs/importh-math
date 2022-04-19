@@ -1,0 +1,33 @@
+import math
+print(math.isfinite(2000))
+print(math.isfinite(-45.34))
+print(math.isfinite(+45.34))
+print(math.isfinite(math.inf))
+print(math.isfinite(float("nan")))
+print(math.isfinite(float("inf")))
+print(math.isfinite(float("-inf")))
+print(math.isfinite(-math.inf))
+print(math.isfinite(0.0))
+
+#print(math.isinf(56))
+#print(math.isinf(-45.34))
+#print(math.isinf(+45.34))
+#print(math.isinf(math.inf))
+#print(math.isinf(float("nan")))
+#print(math.isinf(float("inf")))
+#print(math.isinf(float("-inf")))
+#print(math.isinf(-math.inf))
+
+#print (math.isnan (56))
+#print (math.isnan (-45.34))
+#print (math.isnan (+45.34))
+#print (math.isnan (math.inf))
+#print (math.isnan (float("nan")))
+#print (math.isnan (float("inf")))
+#print (math.isnan (float("-inf")))
+#print (math.isnan (math.nan))
+
+#print(math.ldexp(9, 3))
+#print(math.ldexp(-5, 2))
+#print(math.ldexp(15, 2))
+
